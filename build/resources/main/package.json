@@ -4,8 +4,8 @@
     "description": "Sample package to demo dictionary return",
     "group": "com.automationanywhere",
     "artifactName": "A2019DemoPackage",
-    "packageVersion": "2.0.7-20210212-120326",
-    "codeVersion": "2.0.7-20210212-120326",
+    "packageVersion": "2.0.7-20210212-142444",
+    "codeVersion": "2.0.7-20210212-142444",
     "author": "",
     "commands": [
         {
@@ -22,7 +22,7 @@
             "attributes": [
                 {
                     "name": "providedString",
-                    "label": "[[Concatenate.firstString.label]]",
+                    "label": "String to return in Dictionary",
                     "type": "TEXT",
                     "rules": [
                         {
@@ -32,7 +32,7 @@
                 },
                 {
                     "name": "providedNumber",
-                    "label": "[[Concatenate.secondString.label]]",
+                    "label": "Number to return in Dictionary",
                     "type": "NUMBER",
                     "rules": [
                         {

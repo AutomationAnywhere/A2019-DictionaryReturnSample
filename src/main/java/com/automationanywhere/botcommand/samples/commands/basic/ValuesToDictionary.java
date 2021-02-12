@@ -18,7 +18,7 @@ import static com.automationanywhere.commandsdk.model.DataType.DICTIONARY;
 //BotCommand makes a class eligible for being considered as an action.
 @BotCommand
 
-//CommandPks adds required information to be dispalable on GUI.
+//CommandPks adds required information to be displayed on GUI.
 @CommandPkg(
         //Unique name inside a package and label to display.
         //Typically these should be references to a locales.json variable - but this is just a Demo
@@ -40,7 +40,7 @@ public class ValuesToDictionary {
             //a String, this should be set as TEXT
             @Idx(index = "1", type = TEXT)
             //UI labels.
-            @Pkg(label = "[[Concatenate.firstString.label]]")
+            @Pkg(label = "String to return in Dictionary")
             //Ensure that a validation error is thrown when the value is null.
             @NotEmpty
                     String providedString,
@@ -48,7 +48,7 @@ public class ValuesToDictionary {
             //Idx 2 would be displayed second, with a text box for a number only. Because we want to take in
             //a Number (A2019 data format), this should be set as NUMBER
             @Idx(index = "2", type = NUMBER)
-            @Pkg(label = "[[Concatenate.secondString.label]]")
+            @Pkg(label = "Number to return in Dictionary")
             @NotEmpty
                 Double providedNumber){
 
