@@ -14,6 +14,7 @@ public class ValuesToDictionaryTest {
         Map<String, Object> expectedDictionary = new HashMap<>();
         expectedDictionary.put("FirstValue", expectedString);
         expectedDictionary.put("SecondValue", expectedNumber);
+
         ValuesToDictionary testPackage = new ValuesToDictionary();
 
         DictionaryValue packageOutput = testPackage.action(expectedString, expectedNumber);
