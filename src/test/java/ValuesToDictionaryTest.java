@@ -3,20 +3,15 @@ import com.automationanywhere.botcommand.samples.commands.basic.ValuesToDictiona
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class ValuesToDictionaryTest {
     @Test
     public void testValuesToDictionary(){
         String expectedString = "Go be Great!";
         Double expectedNumber = 100.0;
-        Map<String, Object> expectedDictionary = new HashMap<>();
-        expectedDictionary.put("FirstValue", expectedString);
-        expectedDictionary.put("SecondValue", expectedNumber);
 
+        //new ValuesToDictionary Object for testing
         ValuesToDictionary testPackage = new ValuesToDictionary();
-
+        //Assigning output from the ValuesToDictionaryAction to a Dictionary
         DictionaryValue packageOutput = testPackage.action(expectedString, expectedNumber);
         //Write out to see results
         System.out.println("First Value: " + packageOutput.get("FirstValue").toString());

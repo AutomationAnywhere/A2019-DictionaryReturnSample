@@ -3,9 +3,9 @@
     "label": "Dictionary Demo Package",
     "description": "Sample package to demo dictionary return",
     "group": "com.automationanywhere",
-    "artifactName": "A2019DemoPackage",
-    "packageVersion": "2.0.7-20210212-142444",
-    "codeVersion": "2.0.7-20210212-142444",
+    "artifactName": "ValuesToDictionary",
+    "packageVersion": "2.0.7-20210216-162519",
+    "codeVersion": "2.0.7-20210216-162519",
     "author": "",
     "commands": [
         {
