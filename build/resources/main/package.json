@@ -4,8 +4,8 @@
     "description": "Sample package to demo dictionary return",
     "group": "com.automationanywhere",
     "artifactName": "ValuesToDictionary",
-    "packageVersion": "2.0.7-20210216-162519",
-    "codeVersion": "2.0.7-20210216-162519",
+    "packageVersion": "2.0.7-20210217-094510",
+    "codeVersion": "2.0.7-20210217-094510",
     "author": "",
     "commands": [
         {
